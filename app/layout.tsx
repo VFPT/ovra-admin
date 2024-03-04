@@ -21,7 +21,6 @@ export default async function RootLayout({
 }) {
   return (
     <ClerkProvider
-    {...pageProps}
     publishableKey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}
     >
       <html lang="en">
